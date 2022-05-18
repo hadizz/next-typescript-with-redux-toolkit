@@ -8,6 +8,7 @@ function MyApp({
                }: AppProps) {
     return (
         <Provider store={store}>
+            {/*@ts-ignore*/}
             <Component {...pageProps} />
         </Provider>
     );
